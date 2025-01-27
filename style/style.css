@@ -33,6 +33,174 @@ body{
     text-decoration: none;
     font-size: 13px;
 }
+.header-top-nav ul li a:hover{
+    color: gray;
+}
 .vertical-line{
    opacity: .7;
+}
+#main-nav{
+    background-color: white;
+}
+#main-nav ul li{
+    background-color: white;
+}
+#main-nav .navbar-brand svg{
+    height: 56px;
+    width: 56px;
+}
+.header-bottom-banner a{
+    font-size: 12px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    transition: all 0.3s ease;
+  }
+  .search-container:hover button{
+    background-color:#8686868b;
+    color: black;
+    transition: width 0.1s all ease;
+  }
+  .search-container:hover{
+    background-color: rgba(188, 188, 188, 0.816);
+    transition: width 0.1s all ease;
+  }
+  .search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #c9c9c9;
+    width: 150px;
+    height: 100%;
+    transition: width 0.1s all ease;
+  }
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  .search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    transition: color 0.1s ease;
+  }
+  .search-button svg {
+    width: 20px;
+    height: 20px;
+  }
+  .spacer{
+    height: 20px;
+    width: 100%;
+  }
+  .pegasus{
+    font-family: 'HelveticaNowText', Arial, sans-serif;
+    font-weight: 600;
+  }
+  .more-power{
+    font-family: 'Nike Futura', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+  }
+  @media (max-width: 768px) {
+    .more-power{
+        font-size: 40px;
+    }
+  }
+  @media (max-width: 400px) {
+    .more-power{
+        font-size: 25px;
+    }
+  }
+  @media (max-width: 400px) {
+    .new-collection{
+        font-size: 12px;
+    }
+  }
+  .trending-wrapper>div>div{
+    cursor: pointer;
+  }
+  .sport-img-tennis{
+    position: relative;
+  }
+  .sport-img-tennis a{
+    position: absolute;
+    top:65%;
+    left: 10%;
+  }
+  .sport-img-football{
+    position: relative;
+  }
+  .sport-img-football a{
+    position: absolute;
+    top:65%;
+    left: 10%;
+  }
+  .sport-img-yoga{
+    position: relative;
+  }
+  .sport-img-yoga a{
+    position: absolute;
+    top:65%;
+    left: 10%;
+  }
+  .member-content-wrapper{
+    position: relative;
+  }
+  .member-content-wrapper div{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background-color:transparent;
+    color: white;
+    width: 80%;
+    height: 25%;
+  }
+  @media (min-width: 998px){
+    .member-content-wrapper div h3{
+      font-size: 22px;
+    }
+  }
+  .menu-wrapper h5{
+    margin-bottom: 20px;
+  }
+  .menu-wrapper li{
+    margin-bottom: 15px;
+  }
+.menu-wrapper a{
+  color:gray;
+  font-family:'HelveticaNowDisplayMedium' ;
+  font-size: 17px;
+}
+.menu-wrapper a:hover{
+  color: black;
+}
+.menu-wrapper hr{
+  width: 90%;
+}
+.main-footer a{
+  color: gray;
+  text-decoration: none;
+  font-family:'HelveticaNowDisplayMedium' ;
+  font-size: 14px;
+}
+.main-footer h5{
+  font-family:'HelveticaNowDisplayMedium' ;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.footer-copy-right li{
+  font-size: 15px;
+}
+.footer-copy-right a{
+  color: gray;
+}
+.footer-copy-right a:hover{
+  color: black;
 }
